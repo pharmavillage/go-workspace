@@ -1,0 +1,16 @@
+go 1.22.2
+
+toolchain go1.22.4
+
+use (
+	./apps/api
+	./apps/event-store
+	./apps/https
+	./apps/router
+	./libs/data-access
+	./libs/gql
+)
+
+replace github.com/tidwall/btree v1.1.0 => github.com/tidwall/btree v1.1.1-0.20220220161908-7bec22d8e3fa
+
+replace github.com/samber/lo v1.3.1 => github.com/samber/lo v1.3.2-0.20220305174447-4edabde35217

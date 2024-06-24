@@ -1,0 +1,17 @@
+{
+  "name": "go-workspace",
+  "version": "1.0.0",
+  "description": "Experimenting with **golang-1.18** _multi-module workspaces_",
+  "scripts": {
+    "postinstall": "",
+    "preinstall": "",
+    "build": "",
+    "dev": "yarn workspaces foreach --all -pt yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  }
+}
