@@ -8,7 +8,7 @@ COPY yarn.lock .
 COPY ./apps/$BUILD_CONTEXT/package.json apps/$BUILD_CONTEXT/
 # we can just import whats needed for the workspace libs and then the module federation can actually happen using localhost within the docker containers
 COPY ./apps/lib/package.json apps/lib/
-RUN yarn install
+RUN yarn --pure-lockfile --non-interactive --production
 COPY ./apps/$BUILD_CONTEXT apps/$BUILD_CONTEXT
 COPY ./apps/lib apps/lib
 

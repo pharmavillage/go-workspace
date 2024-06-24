@@ -1,39 +1,37 @@
-version: '3'
-
 services:
-  react-counter:
-    container_name: react-counter
+  api:
+    container_name: api
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        - BUILD_CONTEXT=react-counter
+        - BUILD_CONTEXT=api
     ports:
-      - '58841:58841'
-  shell:
-    container_name: shell
+      - "58841:58841"
+  event-store:
+    container_name: event-store
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        - BUILD_CONTEXT=shell
+        - BUILD_CONTEXT=event-store
     ports:
-      - '62621:62621'
-  shared-store:
-    container_name: shared-store
+      - "62621:62621"
+  gql:
+    container_name: gql
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        - BUILD_CONTEXT=shared-store
+        - BUILD_CONTEXT=gql
     ports:
-      - '55955:55955'
-  vue-counter:
-    container_name: vue-counter
+      - "55955:55955"
+  https:
+    container_name: https
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        - BUILD_CONTEXT=vue-counter
+        - BUILD_CONTEXT=https
     ports:
-      - '51997:51997'
+      - "51997:51997"
