@@ -66,51 +66,51 @@
     "projectFileMap": {
       "gql": [
         {
-          "file": "libs/gql/go.mod",
+          "file": "modules/gql/go.mod",
           "hash": "16827857050238312977"
         },
         {
-          "file": "libs/gql/gql.go",
+          "file": "modules/gql/gql.go",
           "hash": "6220839487877879821"
         },
         {
-          "file": "libs/gql/gql_test.go",
+          "file": "modules/gql/gql_test.go",
           "hash": "14999936860818850834"
         },
         {
-          "file": "libs/gql/project.json",
+          "file": "modules/gql/project.json",
           "hash": "10168550097262484122"
         },
         {
-          "file": "libs/gql/tools.go",
+          "file": "modules/gql/tools.go",
           "hash": "7206906113415464314"
         },
         {
-          "file": "libs/gql/go.sum",
+          "file": "modules/gql/go.sum",
           "hash": "8719260589136620144"
         },
         {
-          "file": "libs/gql/gqlgen.yml",
+          "file": "modules/gql/gqlgen.yml",
           "hash": "2742676943906342036"
         },
         {
-          "file": "libs/gql/graph/schema.graphqls",
+          "file": "modules/gql/graph/schema.graphqls",
           "hash": "1940579065195455612"
         },
         {
-          "file": "libs/gql/graph/generated.go",
+          "file": "modules/gql/graph/generated.go",
           "hash": "3501791185705684182"
         },
         {
-          "file": "libs/gql/graph/model/models_gen.go",
+          "file": "modules/gql/graph/model/models_gen.go",
           "hash": "1818856834004481774"
         },
         {
-          "file": "libs/gql/graph/resolver.go",
+          "file": "modules/gql/graph/resolver.go",
           "hash": "5215831898175857598"
         },
         {
-          "file": "libs/gql/graph/schema.resolvers.go",
+          "file": "modules/gql/graph/schema.resolvers.go",
           "hash": "10206390686820614434"
         }
       ],
@@ -134,19 +134,19 @@
       ],
       "data-access": [
         {
-          "file": "libs/data-access/data-access.go",
+          "file": "modules/data-access/data-access.go",
           "hash": "9015909039859796585"
         },
         {
-          "file": "libs/data-access/data-access_test.go",
+          "file": "modules/data-access/data-access_test.go",
           "hash": "16907182199770213162"
         },
         {
-          "file": "libs/data-access/go.mod",
+          "file": "modules/data-access/go.mod",
           "hash": "5424323656990681978"
         },
         {
-          "file": "libs/data-access/project.json",
+          "file": "modules/data-access/project.json",
           "hash": "16214162914815507220"
         }
       ]

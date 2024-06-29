@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	dataaccess "libs/data-access"
-	"libs/gql"
 	"log"
+	dataaccess "modules/data-access"
+	"modules/gql"
 	"net/http"
 	"os"
 )

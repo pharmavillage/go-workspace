@@ -4,15 +4,12 @@
       "name": "data-access",
       "type": "lib",
       "data": {
-        "root": "libs/data-access",
+        "root": "modules/data-access",
         "name": "data-access",
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "projectType": "library",
-        "sourceRoot": "libs/data-access",
-        "tags": [
-          "database",
-          "data"
-        ],
+        "sourceRoot": "modules/data-access",
+        "tags": ["database", "data"],
         "targets": {
           "test": {
             "executor": "@nx-go/nx-go:test",
@@ -42,10 +39,7 @@
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "projectType": "application",
         "sourceRoot": "apps/api",
-        "tags": [
-          "database",
-          "data"
-        ],
+        "tags": ["database", "data"],
         "targets": {
           "build": {
             "executor": "@nx-go/nx-go:build",
@@ -84,15 +78,12 @@
       "name": "gql",
       "type": "lib",
       "data": {
-        "root": "libs/gql",
+        "root": "modules/gql",
         "name": "gql",
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "projectType": "library",
-        "sourceRoot": "libs/gql",
-        "tags": [
-          "database",
-          "data"
-        ],
+        "sourceRoot": "modules/gql",
+        "tags": ["database", "data"],
         "targets": {
           "test": {
             "executor": "@nx-go/nx-go:test",

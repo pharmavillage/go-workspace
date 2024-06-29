@@ -5,10 +5,10 @@ toolchain go1.22.4
 use (
 	./apps/api
 	./apps/event-store
-	./apps/https
-	./apps/router
-	./libs/data-access
-	./libs/gql
+	./modules/data-access
+	./modules/gql
+	./modules/legacy
+	./modules/grpc
 )
 
 replace github.com/tidwall/btree v1.1.0 => github.com/tidwall/btree v1.1.1-0.20220220161908-7bec22d8e3fa

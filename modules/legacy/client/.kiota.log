@@ -1,0 +1,15 @@
+Warning: KiotaBuilder OpenAPI warning: #/ - The schema /oauth.server.authorize is a polymorphic type but does not define a discriminator. This will result in a serialization errors.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.create/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/is_public/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.create/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/allow_join/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.create/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/require_join_approval/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.create/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/allow_external_read/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.update/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/is_public/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.update/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/allow_join/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.update/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/require_join_approval/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1channel.update/post/requestBody/content/application~1x-www-form-urlencoded/schema/properties/allow_external_read/default - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/user_fs_stats/properties/quota/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Call/properties/is_public/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Action/properties/id/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Action/properties/channel_id/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ActionEx/properties/id/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/ActionEx/properties/channel_id/example - Data and type mismatch found.
